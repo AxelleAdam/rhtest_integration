@@ -1,18 +1,4 @@
-# Montage du projet
-
-## Méthode #1 - Docker
-
-Pré-requis :
-- <a href="https://docs.docker.com/engine/installation/" target="_blank">docker</a>
-- <a href="https://docs.docker.com/compose/install/" target="_blank">docker-compose</a>
-
-Lancez les commandes suivantes dans un terminal :
-- `docker-compose build`
-- `docker-compose up`
-
-Le site est désormais accessible à l'adresse `http://localhost:8080`
-
-## Méthode #2 - Fichier Statique
+# Lancement du projet
 
 Ouvrez le fichier `index.html` dans votre navigateur
 
@@ -24,10 +10,15 @@ Pré-requis :
 
 Compilation des sources :
 - Lancez l'installation des dépendances avec la commande `npm install`
-- Les commandes suivantes sont ensuite accessibles pour développer : `npm run watch`, `npm run dev`, `npm run production`
+- Les commandes suivantes sont ensuite accessibles pour développer :
+  - `npm run watch` - Recompile automatiquement les sources lorsqu'un fichier est modifié
+  - `npm run dev` - Compile les sources de manière non optimisée
+  - `npm run production` - Compile les sources de manière optimisée et minifiée
+- Chaque commande copie le fichier compilé résultant dans le dossier `dist`
 
 Notes diverses :
 - Les images nécessaires sont déjà présentes dans le dossier `src/img`
 - Un fichier `src/js/main.js` est présent pour placer vos sources Javascript
 - Un fichier `src/scss/main.scss` est présent pour placer vos sources SASS
-- Les 3 Frameworks proposés sont déjà pré-installés, il vous suffit de dé-commenter celui souhaité pour commencer l'utiliser dans le fichier `src/scss/main.scss`
+- Les 3 Frameworks proposés sont déjà pré-installés, il vous suffit de dé-commenter celui souhaité dans le fichier `src/scss/main.scss` pour commencer à l'utiliser
+- La maquette à intégrée est représentée par le fichier `resources/maquette.jpg`
