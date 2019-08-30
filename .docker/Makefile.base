@@ -1,5 +1,0 @@
-.DEFAULT_GOAL := help
-.PHONY: $(filter-out vendor node_modules,$(MAKECMDGOALS))
-
-help:
-	@cat .docker/Makefile.* Makefile | grep -E '^[a-zA-Z_-]+:.*?# .*$$|^## .*$$' | awk 'BEGIN{FS = ":.*?# "}; {printf "  \033[32m%-25s\033[0m %s\n", $$1, $$2}' | awk 'BEGIN{FS = ".*## "}; {printf "%s\033[0m %s\n", $$1, $$2}'
