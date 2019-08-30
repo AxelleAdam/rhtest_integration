@@ -1,9 +1,0 @@
-version: "2"
-
-services:
-  nginx:
-    build: .docker/nginx
-    volumes:
-      - .:/var/www/html:cached
-    ports:
-      - 8080:80
