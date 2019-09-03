@@ -1,12 +1,8 @@
 @import "variables";
 
+//Librairies
 @import 'lib/fontawesome';
+@import 'lib/bootstrap';
 
-/*
- * Choisissez un framework CSS ci-dessous
- */
-
-// @import 'lib/foundation-sites';
-// @import 'lib/tailwindcss';
-// @import 'lib/bootstrap';
-
+//Composants
+@import 'Components/_buttons';
