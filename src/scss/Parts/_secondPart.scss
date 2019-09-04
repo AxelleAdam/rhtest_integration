@@ -1,0 +1,53 @@
+.secondPart{
+    background:$darker;
+    height:80vh;
+}
+
+.fractoryTitle{
+    color:$yellow;
+    position:absolute;
+    top:73%;
+    left:16%;
+    text-transform:uppercase;
+}
+
+.line{
+    position:absolute;
+    top:78%;
+    left:16%;
+    border-left:$dark 1px solid;
+    height:50vh;
+    font-family: $font-family-sans-serif;
+}
+
+.presentationTitle {
+    font-family:$font-family-monospace;
+    font-weight: bolder;
+    color:white;
+    font-size:250%;
+    width:30vw;
+    letter-spacing:5px;  
+    position:relative;
+    top:8%;
+    margin:auto;
+}
+
+.presentation{
+    font-family:$font-family-monospace;
+    color:white;
+    text-align:justify;
+    width:70%;
+    position:relative;
+    top:15%;
+    left:25%;
+    text-transform: none;
+}
+
+.knowMore{
+    position:relative;
+    margin-top:25%;
+    left:40%;
+    font-family:$font-family-monospace;
+    color:white;
+    text-transform:uppercase;
+}

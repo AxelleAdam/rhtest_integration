@@ -1,0 +1,25 @@
+.firstPart{
+    background:$dark;
+    height:70vh;
+    width:100%;
+}
+
+.logoFractory{
+    margin:auto;
+    position:absolute;
+    top:20%;
+    left:40%;
+}
+
+.menuFactory{
+    position:absolute;
+    top:3%;
+    right:2%;
+}
+@media (max-width: 1024px) {
+    .logoFractory{
+    width:35%;
+    top:35%;
+    left:35%;
+    }
+}
