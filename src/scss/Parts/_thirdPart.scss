@@ -1,4 +1,27 @@
 .thirdPart{
-    height:85vh;
+    height:65vh;
 }
 
+.adressFractory{
+    text-align:justify;
+    font-family:$font-family-monospace;
+
+}
+
+.mailFractory{
+    color:$yellow !important;
+    text-align:center;
+    text-transform:lowercase;
+    font-family:$font-family-monospace;
+
+}
+
+.contactFractory{
+    font-family:$font-family-sans-serif;
+    font-weight:bold;
+}
+
+.presProject{
+    font-family:$font-family-monospace;
+    font-size:100% !important;
+}

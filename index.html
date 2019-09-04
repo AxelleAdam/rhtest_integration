@@ -44,47 +44,51 @@
          </a>         
         </div>
       
-        <div class="thirdPart">
-          <h3>Contactez-nous</h3>
-          <h5>Discutons de votre projet.</h5>
-            <form>
-                <div class="form-group">
-                  <label for="exampleFormControlInput1"></label>
-                  <input type="email" 
-                         class="form-control" 
-                         id="mail" 
-                         placeholder="name@example.com" 
-                         required>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput2"></label>
-                    <input class="form-control" 
-                           id="tel" 
-                           type="tel" 
-                           name="tel" 
-                           placeholder="+00 (0) 00 00 00 00" 
-                           oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')" 
-                           maxlength="11"
-                           required
-                           >
+        <div class="thirdPart container">
+          <div class="row">
+            <div class="col-sm-8">
+                <h3 class="contactFractory">Contactez-nous.</h3>
+                <h5 class="presProject">Discutons de votre projet.</h5>
+              <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1"></label>
+                    <input type="email" 
+                          class="form-control" 
+                          id="mail" 
+                          placeholder="Email" 
+                          required>
                   </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1"></label>
-                  <textarea class="form-control" 
-                            id="textarea" 
-                            rows="3" 
-                            minlength="10" 
-                            maxlength="500" 
-                            placeholder="Votre message">
-                  </textarea>
-                </div>              
-                <button>Envoyer</button>
-              </form>
-
-              <div class="container">
-                <h4>Fractory</h4>
-                <p>Adresse</p>
-              </div>
+                  <div class="form-group">
+                      <label for="exampleFormControlInput2"></label>
+                      <input class="form-control" 
+                            id="tel" 
+                            type="tel" 
+                            name="tel" 
+                            placeholder="+00 (0) 00 00 00 00" 
+                            oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')" 
+                            maxlength="11"
+                            required
+                            >
+                    </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" 
+                              id="textarea" 
+                              rows="3" 
+                              minlength="10" 
+                              maxlength="500" 
+                              placeholder="Votre message">
+                    </textarea>
+                  </div>              
+                  <button>Envoyer</button>
+                </form>
+             </div>
+            <div class="col-sm-4">
+              <h3 class="contactFractory">Fractory</h3>
+              <p class="adressFractory">Adresse</p>
+              <p class="mailFractory">contact@fractory.io</p>
+            </div>
+          </div>
       </div>
     
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
